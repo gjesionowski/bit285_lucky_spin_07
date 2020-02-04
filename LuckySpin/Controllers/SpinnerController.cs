@@ -72,7 +72,7 @@ namespace LuckySpin.Controllers
             // QUESTION 2: What else does ChargeSpin() do besides check if there is enough $$ to spin?
             if (!spinItVM.ChargeSpin())
             {
-                return RedirectToAction("LuckList", id);
+                return RedirectToAction("LuckList");
             }
             // QUESTION 3: Locate the if-else logic to determine a winning spin?
             //             Why do you think it is done there? 
