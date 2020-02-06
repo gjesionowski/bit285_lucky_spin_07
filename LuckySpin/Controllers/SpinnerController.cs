@@ -101,7 +101,7 @@ namespace LuckySpin.Controllers
          public IActionResult LuckList(long id)
         {
             //TODO: Pass the View the Spins collection from the dbcRepo
-            return View(dbcRepo.Spins.Find(id));
+            return View(dbcRepo.Spins);
         }
 
     }
